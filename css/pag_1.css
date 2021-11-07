@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --mainColor:#eee;
+    --main-Padding:20px;
+
+}
+.first {
+    padding: var(--main-Padding,20px);
+    background-color: yellow;
+    text-align: center;
+}
+
+header {
+    background-color: cadetblue;
+    text-align: center;
+    padding: var(--main-Padding);    
+}
+nav {
+    background-color: black;
+    padding: 15px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+a:hover {
+    color: black;
+    background-color: var(--mainColor);
+}
+.second {
+    display: flex;
+}
+aside {
+    flex: 25%;
+    background-color: var(--mainColor);
+    padding: 15px;
+}
+
+.column {
+    flex: 75%;
+    padding: 15px;    
+}
+footer {
+    background-color: #b5b5b5;
+    padding: var(--main-Padding);
+    text-align: center;
+}
